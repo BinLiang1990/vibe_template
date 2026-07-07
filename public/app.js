@@ -37,6 +37,8 @@ function initLunchButton() {
   actions.appendChild(result);
 }
 
+// Runs on real page load, and also on require() from the DOM-stub test
+// (scripts/test-lunch-button.js), which sets global.document before this.
 if (typeof document !== 'undefined') {
   initLunchButton();
 }
