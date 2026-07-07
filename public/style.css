@@ -14,3 +14,22 @@ body {
   gap: 1rem;
   text-align: center;
 }
+
+#lunch-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: #2f6fed;
+  color: #fff;
+  cursor: pointer;
+}
+
+#lunch-button:hover {
+  background: #2559c4;
+}
+
+#lunch-result {
+  font-size: 1.25rem;
+  min-height: 1.5rem;
+}

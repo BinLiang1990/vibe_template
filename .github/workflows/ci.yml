@@ -19,3 +19,7 @@ jobs:
             [ -e "$f" ] || continue
             bash "$f"
           done
+          for f in scripts/test-*.js; do
+            [ -e "$f" ] || continue
+            node "$f"
+          done
