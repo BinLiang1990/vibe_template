@@ -1,0 +1,3 @@
+# Local, machine-generated pointers into skill/ — regenerate with scripts/link-skills.*
+# (junctions/symlinks don't survive git; a real clone would otherwise get duplicated files)
+.claude/skills/
